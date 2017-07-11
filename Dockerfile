@@ -1,6 +1,6 @@
 # -*- sh -*-
 FROM base/archlinux
-MAINTAINER Geoffroy Couprie, contact@geoffroycouprie.com
+MAINTAINER mjhooker, mjhooker@gmail.com
 
 RUN echo -e "[multilib]\nInclude = /etc/pacman.d/mirrorlist" > /tmp/multilib
 RUN cat /etc/pacman.conf /tmp/multilib > /tmp/pacman.conf
